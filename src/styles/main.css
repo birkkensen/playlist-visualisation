@@ -3,7 +3,7 @@
   --spotify-green-highlight: #1ed760;
   --bg: rgb(22, 22, 22);
 
-  --img-size: 300px;
+  --img-size: 200px;
 }
 
 * {
@@ -22,6 +22,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+h1 {
+  color: #1db954;
 }
 
 #login-button {
