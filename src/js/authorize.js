@@ -1,6 +1,6 @@
 const loginBtn = document.getElementById('login-button');
 loginBtn.addEventListener('click', () => {
-  const client_id = '87618b6dd23445a7842d92de79a95355';
+  const client_id = process.env.CLIENT_ID;
   const redirect_uri =
     'https://playlist-visualisation.netlify.app/playlist.html';
 
